@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="main_window">
+    <property name="can_focus">False</property>
+    <property name="hexpand">True</property>
+    <property name="vexpand">True</property>
+    <child type="titlebar">
+      <object class="GtkLabel" id="label1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Gato de Prueba 3x3</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkGrid" id="pruebagato2">
+        <property name="visible">True</property>
+        <property name="app_paintable">True</property>
+        <property name="can_focus">False</property>
+        <property name="opacity">0</property>
+        <property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+        <child>
+          <object class="GtkLabel" id="11">
+            <property name="name">11</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <attributes>
+              <attribute name="foreground" value="#000000000000"/>
+              <attribute name="background" value="#ffffffffffff"/>
+              <attribute name="underline-color" value="#ffffffffffff"/>
+              <attribute name="strikethrough-color" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="12">
+            <property name="name">12</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <attributes>
+              <attribute name="foreground" value="#000000000000"/>
+              <attribute name="background" value="#ffffffffffff"/>
+              <attribute name="underline-color" value="#ffffffffffff"/>
+              <attribute name="strikethrough-color" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="13">
+            <property name="name">13</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="21">
+            <property name="name">21</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <attributes>
+              <attribute name="foreground" value="#000000000000"/>
+              <attribute name="background" value="#ffffffffffff"/>
+              <attribute name="underline-color" value="#ffffffffffff"/>
+              <attribute name="strikethrough-color" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="22">
+            <property name="name">22</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <attributes>
+              <attribute name="foreground" value="#000000000000"/>
+              <attribute name="background" value="#ffffffffffff"/>
+              <attribute name="underline-color" value="#ffffffffffff"/>
+              <attribute name="strikethrough-color" value="#eeeeeeeeecec"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="23">
+            <property name="name">23</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">False</property>
+            <attributes>
+              <attribute name="foreground" value="#000000000000"/>
+              <attribute name="background" value="#ffffffffffff"/>
+              <attribute name="underline-color" value="#ffffffffffff"/>
+              <attribute name="strikethrough-color" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="31">
+            <property name="name">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left_attach">0</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="32">
+            <property name="name">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="33">
+            <property name="name">33</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
